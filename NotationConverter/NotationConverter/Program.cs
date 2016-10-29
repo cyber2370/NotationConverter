@@ -22,7 +22,7 @@ namespace NotationConverter
             //Console.WriteLine($"{octalNumber} ---> {octalNumber.ConvertToBinaryNotation(8)}");
 
 
-            Console.WriteLine($"Binary to Octal: {binaryNumber} ---> {binaryNumber.ConvertToAnyNotation(2, 8)}");
+            Console.WriteLine($"Binary to 32: {binaryNumber} ---> {binaryNumber.ConvertToAnyNotation(2, 32)}");
             Console.WriteLine($"Binary to Decimal: {binaryNumber} ---> {binaryNumber.ConvertToAnyNotation(2, 10)}");
             Console.WriteLine($"Binary to Hexadecimal: {binaryNumber} ---> {binaryNumber.ConvertToAnyNotation(2, 16)}");
 
